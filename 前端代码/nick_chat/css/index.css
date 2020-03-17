@@ -1,0 +1,63 @@
+.bg-color{
+	background: #000;
+	margin: 0;
+}
+
+.main{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.msg-windows{
+	background: #222;
+	min-height: 600px;
+	padding-bottom: 60px;
+}
+
+.msg{
+	width: 1000px;
+	font-family: 'DejaVu Sans Mono', monospace;
+	font-size: 12px;
+	color: #FFF;
+}
+.msg .nick,.content{
+	padding: 6px;
+	/* display: inline-block; */
+	float: left;
+}
+.nick{
+	width: 15%;
+	text-align: right;
+}
+.content{
+	width: 70%;
+	border-left: 1px solid #999;
+}
+.info .nick{color: greenyellow;}
+.me .nick{color: #b31e8d;}
+.other .nick{color: aqua;}
+
+.info .content{color: greenyellow;}
+.me .content{color: #fff;}
+.other .content{color: #ccc;}
+
+
+.input-windows{
+	background: #999;
+	height: 60px;
+	width: 1024px;
+	position: fixed;
+	bottom: 0;
+}
+.input-msg{
+	width: 98%;
+	height: 60px;
+	padding: 10px 1%;
+	margin: 0px;
+	border: none;
+	resize: none;
+}
+
+.clear{
+	clear:both;
+}
